@@ -19,30 +19,35 @@ namespace Tekwill_2_2024
 
             //EX2 MAIN
 
-           
-            PersoanaBank persoana = new PersoanaBank("1234567890123", "Fizică");
 
-            PersoanaBank persoana1 = new PersoanaBank("0223232132","Juridic");
+            //PersoanaBank persoana = new PersoanaBank("1234567890123", "Fizică");
 
-        
-            ContBancar cont = new ContBancar("RO123BANK0000000001", "MDL", persoana, "1234");
-
-            ContBancar cont1 = new ContBancar("R0321321312KS32123","EURO",persoana1 , "1212");
-            
-            cont.AlimentareCont(1000);
-            cont.AlimentareCont(500);
-            cont.ExtrageFond(300);
-            cont.ExtrageFond(1500);
-
-            Console.WriteLine("\n");
-
-            cont1.AlimentareCont(1000);
-            Console.WriteLine("\n");
-            cont1.ExtrageFond(1000);
+            //PersoanaBank persoana1 = new PersoanaBank("0223232132","Juridic");
 
 
-            Console.WriteLine($"Soldul curent este: {cont.DeterminaSold()} {cont.moneda}");
-            Console.WriteLine($"Soldul curent este: {cont1.DeterminaSold()} {cont1.moneda}");
+            //ContBancar cont = new ContBancar("RO123BANK0000000001", "MDL", persoana, "1234");
+
+            //ContBancar cont1 = new ContBancar("R0321321312KS32123","EURO",persoana1 , "1212");
+
+            //cont.AlimentareCont(1000);
+            //cont.AlimentareCont(500);
+            //cont.ExtrageFond(300);
+            //cont.ExtrageFond(1500);
+
+            //Console.WriteLine("\n");
+
+            //cont1.AlimentareCont(1000);
+            //Console.WriteLine("\n");
+            //cont1.ExtrageFond(1000);
+
+
+            //Console.WriteLine($"Soldul curent este: {cont.DeterminaSold()} {cont.moneda}");
+            //Console.WriteLine($"Soldul curent este: {cont1.DeterminaSold()} {cont1.moneda}");
+
+
+            //Tema14 tema14 = new Tema14();
+
+            //tema14.RunMethod();
 
 
 
